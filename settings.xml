@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<settings>
+	<properties/>
+	<guilds>
+		<guild access="guild" id="604867951526543363" name="Dismissed">
+			<command_prefix write="True">/</command_prefix>
+			<channels write="True">
+				<channel id="605898401959116802" name="schedule" write="True"/>
+				<channel id="627671946657529856" name="updates" write="True"/>
+				<channel id="665667113159098420" name="commands" write="True"/>
+			</channels>
+			<admins write="True">
+				<admin id="user_id_0" user="Daygirl44#5093"/>
+				<admin id="user_id_1" user="Empress#5053"/>
+			</admins>
+			<spreadsheets write="True">
+				<spreadsheet id="spdsht_id" name="Dismissed">
+					<sheets>
+						<sheet id="sht_id_0" name="Schedule" range="B1:I"/>
+						<sheet id="sht_id_1" name="Scrim Log">
+							<columns>
+								<column name="teams">B</column>
+								<column name="contact">D</column>
+							</columns>
+						</sheet>
+					</sheets>
+				</spreadsheet>
+			</spreadsheets>
+		</guild>
+	</guilds>
+</settings>
